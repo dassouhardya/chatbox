@@ -1,0 +1,79 @@
+
+body{
+    background-color: aqua;
+    height: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.chat-container-1{
+    background-color: lightslategray;
+    max-width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header{
+background-color: lime;
+padding: 0.5em;
+}
+.chat-container-2{
+    background-color: linen;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.left-message{
+    margin: 0.5rem;
+    background-color: mediumturquoise;
+    padding: 1em;
+    align-self: flex-start;
+    border-radius: 5em;
+    box-shadow: 1px 1px 2px 2px rgba((0), 0, 0, 0.5);
+    width: 35%;
+}
+
+.right-message{
+    margin: 0.5rem;
+    background-color: #333;
+    color:white;
+    padding: 1em;
+    align-self: flex-start;
+    border-radius: 5em;
+    box-shadow: 1px 1px 2px 2px rgba((0), 0, 0, 0.5);
+    width: 35%;
+}
+
+img{
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.img-left{
+display: flex;
+flex-direction: row;
+}
+
+.img-right{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.chat-footer{
+    background-color: mediumaquamarine;
+    display: flex;
+}
+
+textarea{
+    flex: 1;
+    resize: none;
+}
+
+button{
+    background-color: skyblue;
+}
